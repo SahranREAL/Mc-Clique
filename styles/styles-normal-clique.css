@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.normal-clique {
+    position: relative;
+}
+
+.normal-clique img {
+    display: block;
+    width: 100%; /* Pour que l'image prenne toute la largeur du conteneur */
+    height: auto; /* Pour conserver les proportions de l'image */
+}
+
+.suivant-btn {
+    position: absolute;
+    bottom: 50px; /* Positionne le bouton en bas de l'image avec un espacement de 10px */
+    right: 80px; /* Positionne le bouton à droite de l'image avec un espacement de 10px */
+    padding: 10px 20px; /* Ajoute de l'espace autour du texte du bouton */
+    background-color: #e0d7bf; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 5px; /* Ajoute des coins arrondis au bouton */
+    cursor: pointer; /* Change le curseur au survol du bouton */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
